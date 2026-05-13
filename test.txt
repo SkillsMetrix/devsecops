@@ -1,1 +1,1 @@
-my_secret=123
+AWS_KEY=AKI980U0909
