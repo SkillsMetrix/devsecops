@@ -1,0 +1,23 @@
+[
+ {
+  "RuleID": "generic-api-key",
+  "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations.",
+  "StartLine": 1,
+  "EndLine": 1,
+  "StartColumn": 1,
+  "EndColumn": 35,
+  "Match": "AWS_SECRET_ACCESS_KEY=AKIA123456789",
+  "Secret": "AKIA123456789",
+  "File": "secrets.env",
+  "SymlinkFile": "",
+  "Commit": "4ddfe803a78a482f5158d75d3dbb9eed23b6954c",
+  "Link": "https://github.com/SkillsMetrix/devsecops/blob/4ddfe803a78a482f5158d75d3dbb9eed23b6954c/secrets.env#L1",
+  "Entropy": 3.5465937,
+  "Author": "skillsmetrix Technologies",
+  "Email": "161203473+SkillsMetrix@users.noreply.github.com",
+  "Date": "2026-05-13T18:29:38Z",
+  "Message": "Update secrets.env",
+  "Tags": [],
+  "Fingerprint": "4ddfe803a78a482f5158d75d3dbb9eed23b6954c:secrets.env:generic-api-key:1"
+ }
+]
